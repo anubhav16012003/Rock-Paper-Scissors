@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 2rem;
+    padding: 8px;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: #454545;
+    cursor: pointer;
+}
+
+#playerChoice, #computerChoice, #result{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.greenDisplay{
+    color: green;
+}
+
+.redDisplay{
+    color: red;
+}
